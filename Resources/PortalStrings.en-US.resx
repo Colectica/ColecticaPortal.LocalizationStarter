@@ -1,0 +1,2157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Basket" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Controllers/BasketController.cs</comment>
+</data>
+  <data name="Confirm Email" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Account/ConfirmEmail.cshtml</comment>
+</data>
+  <data name="Click here to log in" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Account/ConfirmEmail.cshtml</comment>
+</data>
+  <data name="Register" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Account/ExternalLoginConfirmation.cshtml</comment>
+</data>
+  <data name="Associate your {0} account." xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Account/ExternalLoginConfirmation.cshtml</comment>
+</data>
+  <data name="Association Form" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Account/ExternalLoginConfirmation.cshtml</comment>
+</data>
+  <data name="You've successfully authenticated with {0}. " xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Account/ExternalLoginConfirmation.cshtml</comment>
+</data>
+  <data name="Please enter a user name for this site below and click the Register button to finish logging in." xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Account/ExternalLoginConfirmation.cshtml</comment>
+</data>
+  <data name="Email" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Account/ExternalLoginConfirmation.cshtml</comment>
+</data>
+  <data name="Login Failure" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Account/ExternalLoginFailure.cshtml</comment>
+</data>
+  <data name="Unsuccessful login with service" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Account/ExternalLoginFailure.cshtml</comment>
+</data>
+  <data name="Reset Password" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Account/ForgotPassword.cshtml</comment>
+</data>
+  <data name="Enter your email address to receive instructions to reset your password." xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Account/ForgotPassword.cshtml</comment>
+</data>
+  <data name="Submit" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Account/ForgotPassword.cshtml</comment>
+</data>
+  <data name="You've got mail" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Account/ForgotPasswordConfirmation.cshtml</comment>
+</data>
+  <data name="Please check your email to reset your password." xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Account/ForgotPasswordConfirmation.cshtml</comment>
+</data>
+  <data name="Locked out" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Account/Lockout.cshtml</comment>
+</data>
+  <data name="This account has been locked out. Please try again later." xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Account/Lockout.cshtml</comment>
+</data>
+  <data name="Log in" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Account/Login.cshtml</comment>
+</data>
+  <data name="Password" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Account/Login.cshtml</comment>
+</data>
+  <data name="Remember me" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Account/Login.cshtml</comment>
+</data>
+  <data name="Register as a new user?" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Account/Login.cshtml</comment>
+</data>
+  <data name="Forgot your password?" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Account/Login.cshtml</comment>
+</data>
+  <data name="Create a New Account" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Account/Register.cshtml</comment>
+</data>
+  <data name="Confirm Password" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Account/Register.cshtml</comment>
+</data>
+  <data name="First Name" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Account/Register.cshtml</comment>
+</data>
+  <data name="Last Name" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Account/Register.cshtml</comment>
+</data>
+  <data name="Organization" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Account/Register.cshtml</comment>
+</data>
+  <data name="Department" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Account/Register.cshtml</comment>
+</data>
+  <data name="Position" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Account/Register.cshtml</comment>
+</data>
+  <data name="Terms of Use" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Account/Register.cshtml</comment>
+</data>
+  <data name="I agree to the Terms of Use." xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Account/Register.cshtml</comment>
+</data>
+  <data name="Reset" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Account/ResetPassword.cshtml</comment>
+</data>
+  <data name="Reset password confirmation" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Account/ResetPasswordConfirmation.cshtml</comment>
+</data>
+  <data name="Send Verification Code" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Account/SendCode.cshtml</comment>
+</data>
+  <data name="Select Two-Factor Authentication Provider:" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Account/SendCode.cshtml</comment>
+</data>
+  <data name="Verify" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Account/VerifyCode.cshtml</comment>
+</data>
+  <data name="Code" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Account/VerifyCode.cshtml</comment>
+</data>
+  <data name="Remember this browser?" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Account/VerifyCode.cshtml</comment>
+</data>
+  <data name="Edit" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Agency/Edit.cshtml</comment>
+</data>
+  <data name="Agency ID" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Agency/Edit.cshtml</comment>
+</data>
+  <data name="Name" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Agency/Edit.cshtml</comment>
+</data>
+  <data name="Agency Management" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Agency/Index.cshtml</comment>
+</data>
+  <data name="Agencies" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Agency/Index.cshtml</comment>
+</data>
+  <data name="Create an Agency" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Agency/Index.cshtml</comment>
+</data>
+  <data name="Create your first agency" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Agency/Index.cshtml</comment>
+</data>
+  <data name="Delete" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Agency/Index.cshtml</comment>
+</data>
+  <data name="Close" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Agency/Index.cshtml</comment>
+</data>
+  <data name="Delete @item.Name" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Agency/Index.cshtml</comment>
+</data>
+  <data name="Are you sure you want to delete this agency?" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Agency/Index.cshtml</comment>
+</data>
+  <data name="Dashboard" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Analytics/Dashboard.cshtml</comment>
+</data>
+  <data name="Admin" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Analytics/Dashboard.cshtml</comment>
+</data>
+  <data name="Users" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Analytics/Dashboard.cshtml</comment>
+</data>
+  <data name="Items" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Analytics/Dashboard.cshtml</comment>
+</data>
+  <data name="Item Revisions" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Analytics/Dashboard.cshtml</comment>
+</data>
+  <data name="Software Version" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Analytics/Dashboard.cshtml</comment>
+</data>
+  <data name="Item Counts" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Analytics/Dashboard.cshtml</comment>
+</data>
+  <data name="Recently Added Items" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Analytics/Dashboard.cshtml</comment>
+</data>
+  <data name="Views (past 30 days)" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Analytics/Dashboard.cshtml</comment>
+</data>
+  <data name="Item" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Analytics/Dashboard.cshtml</comment>
+</data>
+  <data name="Count" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Analytics/Dashboard.cshtml</comment>
+</data>
+  <data name="No content" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Analytics/Dashboard.cshtml</comment>
+</data>
+  <data name="Views by User (past 30 days)" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Analytics/Dashboard.cshtml</comment>
+</data>
+  <data name="User" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Analytics/Dashboard.cshtml</comment>
+</data>
+  <data name="Searches (past 30 days)" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Analytics/Dashboard.cshtml</comment>
+</data>
+  <data name="Query" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Analytics/Dashboard.cshtml</comment>
+</data>
+  <data name="Datasets with extracted variables (past 30 days)" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Analytics/Dashboard.cshtml</comment>
+</data>
+  <data name="Variable Downloads (past 30 days)" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Analytics/Dashboard.cshtml</comment>
+</data>
+  <data name="Variable" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Analytics/Dashboard.cshtml</comment>
+</data>
+  <data name="Reports" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Analytics/Reports.cshtml</comment>
+</data>
+  <data name="Report Dates" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Analytics/Reports.cshtml</comment>
+</data>
+  <data name="Begin" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Analytics/Reports.cshtml</comment>
+</data>
+  <data name="End" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Analytics/Reports.cshtml</comment>
+</data>
+  <data name="Create Reports" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Analytics/Reports.cshtml</comment>
+</data>
+  <data name="Views" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Analytics/Reports.cshtml</comment>
+</data>
+  <data name="Download CSV" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Analytics/Reports.cshtml</comment>
+</data>
+  <data name="Views by User" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Analytics/Reports.cshtml</comment>
+</data>
+  <data name="Searches" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Analytics/Reports.cshtml</comment>
+</data>
+  <data name="Newly Published Items" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Analytics/Reports.cshtml</comment>
+</data>
+  <data name="Item Type" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Analytics/Reports.cshtml</comment>
+</data>
+  <data name="Datasets with extracted variables" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Analytics/Reports.cshtml</comment>
+</data>
+  <data name="Variables Downloaded" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Analytics/Reports.cshtml</comment>
+</data>
+  <data name="New Item References" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Analytics/Reports.cshtml</comment>
+</data>
+  <data name="New Items Not Referenced" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Analytics/Reports.cshtml</comment>
+</data>
+  <data name="Tour this Page" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Basket/Basket.cshtml</comment>
+</data>
+  <data name="Manage" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Basket/Basket.cshtml</comment>
+</data>
+  <data name="Create a Basket" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Basket/Basket.cshtml</comment>
+</data>
+  <data name="Baskets" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Basket/Basket.cshtml</comment>
+</data>
+  <data name="No name" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Basket/Basket.cshtml</comment>
+</data>
+  <data name="Welcome. This appears to be your first visit. Click the button below to take a quick tour." xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Basket/Basket.cshtml</comment>
+</data>
+  <data name="This is your active basket." xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Basket/Basket.cshtml</comment>
+</data>
+  <data name="Download" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Basket/Basket.cshtml</comment>
+</data>
+  <data name="This basket contains {0} items." xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Basket/Basket.cshtml</comment>
+</data>
+  <data name="Download PDF" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Basket/Basket.cshtml</comment>
+</data>
+  <data name="Download DDI 3.2" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Basket/Basket.cshtml</comment>
+</data>
+  <data name="Download SPSS" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Basket/Basket.cshtml</comment>
+</data>
+  <data name="Activate" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Basket/Basket.cshtml</comment>
+</data>
+  <data name="Rename" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Basket/Basket.cshtml</comment>
+</data>
+  <data name="Remove" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Basket/Basket.cshtml</comment>
+</data>
+  <data name="Items you add to your basket will display here." xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Basket/Basket.cshtml</comment>
+</data>
+  <data name="Create a New Basket" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Basket/Basket.cshtml</comment>
+</data>
+  <data name="Create" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Basket/Basket.cshtml</comment>
+</data>
+  <data name="Rename Basket" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Basket/Basket.cshtml</comment>
+</data>
+  <data name="New Name" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Basket/Basket.cshtml</comment>
+</data>
+  <data name="Delete {0}" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Basket/Basket.cshtml</comment>
+</data>
+  <data name="Are you sure you want to delete {0}?" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Basket/Basket.cshtml</comment>
+</data>
+  <data name="Explore by Concept" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Explore/ExploreByConcept.cshtml</comment>
+</data>
+  <data name="Harmonized Variables" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Explore/ExploreByConcept.cshtml</comment>
+</data>
+  <data name="Variables" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Explore/ExploreByConcept.cshtml</comment>
+</data>
+  <data name="Questions" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Explore/ExploreByConcept.cshtml</comment>
+</data>
+  <data name="Studies" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Explore/ExploreByConcept.cshtml</comment>
+</data>
+  <data name="Select an item on the left." xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Explore/ExploreByConcept.cshtml</comment>
+</data>
+  <data name="No items found" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Explore/ExploreByConcept.cshtml</comment>
+</data>
+  <data name="Toggle left pane" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Explore/ExploreByConcept.cshtml</comment>
+</data>
+  <data name="Summary" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Explore/ExploreByConcept.cshtml</comment>
+</data>
+  <data name="Compare Codes" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Explore/ExploreByConcept.cshtml</comment>
+</data>
+  <data name="Include missing values" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Explore/ExploreByConcept.cshtml</comment>
+</data>
+  <data name="Explore Data" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Explore/ExploreByPhysicalInstance.cshtml</comment>
+</data>
+  <data name="No groups" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Explore/ExploreByPhysicalInstance.cshtml</comment>
+</data>
+  <data name="Explore" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Explore/Index.cshtml</comment>
+</data>
+  <data name="Home" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Explore/Index.cshtml</comment>
+</data>
+  <data name="Forthcoming" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Explore/Index.cshtml</comment>
+</data>
+  <data name="Details" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Explore/VariableDetails.cshtml</comment>
+</data>
+  <data name="Question" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Explore/VariableDetails.cshtml</comment>
+</data>
+  <data name="Pre-question" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Explore/VariableDetails.cshtml</comment>
+</data>
+  <data name="Post-question" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Explore/VariableDetails.cshtml</comment>
+</data>
+  <data name="Instructions" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Explore/VariableDetails.cshtml</comment>
+</data>
+  <data name="Describes why the current variable/question was skipped (coded INAPP)" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Explore/VariableDetails.cshtml</comment>
+</data>
+  <data name="Describes subsequent variable/question flow and logic" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Explore/VariableDetails.cshtml</comment>
+</data>
+  <data name="Source Question" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Explore/VariableDetails.cshtml</comment>
+</data>
+  <data name="Value" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Explore/VariableDetails.cshtml</comment>
+</data>
+  <data name="Label" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Explore/VariableDetails.cshtml</comment>
+</data>
+  <data name="Frequency" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Explore/VariableDetails.cshtml</comment>
+</data>
+  <data name="Valid" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Explore/VariableDetails.cshtml</comment>
+</data>
+  <data name="Invalid" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Explore/VariableDetails.cshtml</comment>
+</data>
+  <data name="Min" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Explore/VariableDetails.cshtml</comment>
+</data>
+  <data name="Max" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Explore/VariableDetails.cshtml</comment>
+</data>
+  <data name="Mean" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Explore/VariableDetails.cshtml</comment>
+</data>
+  <data name="StdDev" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Explore/VariableDetails.cshtml</comment>
+</data>
+  <data name="Data type change" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Explore/_CrossReferenceTable.cshtml</comment>
+</data>
+  <data name="Details..." xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Explore/_RepresentedVariableDetails.cshtml</comment>
+</data>
+  <data name="Send Feedback" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Feedback/Index.cshtml</comment>
+</data>
+  <data name="We welcome your feedback. If you have ideas to make it easier to discover and use the information on this site, please let us know." xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Feedback/Index.cshtml</comment>
+</data>
+  <data name="Message" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Feedback/Index.cshtml</comment>
+</data>
+  <data name="Thank you for your feedback." xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Feedback/ThankYou.cshtml</comment>
+</data>
+  <data name="File Storage Service Configuration" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/FileStorageService/Index.cshtml</comment>
+</data>
+  <data name="Configuration" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/FileStorageService/Index.cshtml</comment>
+</data>
+  <data name="File Storage Path" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/FileStorageService/Index.cshtml</comment>
+</data>
+  <data name="Save" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/FileStorageService/Index.cshtml</comment>
+</data>
+  <data name="Colectica Portal First Run" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/FirstRun/Index.cshtml</comment>
+</data>
+  <data name="Welcome to Colectica Portal" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/FirstRun/Index.cshtml</comment>
+</data>
+  <data name="Help" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/FirstRun/Index.cshtml</comment>
+</data>
+  <data name="Administrator Email" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/FirstRun/Index.cshtml</comment>
+</data>
+  <data name="Administrator Password" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/FirstRun/Index.cshtml</comment>
+</data>
+  <data name="Site Name" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/FirstRun/Index.cshtml</comment>
+</data>
+  <data name="Disk Cache Path" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/FirstRun/Index.cshtml</comment>
+</data>
+  <data name="Allow Anonymous Access" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/FirstRun/Index.cshtml</comment>
+</data>
+  <data name="Allow User Registration" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/FirstRun/Index.cshtml</comment>
+</data>
+  <data name="Get Started" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/FirstRun/Index.cshtml</comment>
+</data>
+  <data name="Welcome" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Home/Index.cshtml</comment>
+</data>
+  <data name="Search" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Home/Index.cshtml</comment>
+</data>
+  <data name="Search query" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Home/Index.cshtml</comment>
+</data>
+  <data name="Related Documentation" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Item/Components/OtherMaterials/Default.cshtml</comment>
+</data>
+  <data name="Other" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Item/Components/OtherMaterials/Default.cshtml</comment>
+</data>
+  <data name="File Download" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Item/Components/OtherMaterials/Default.cshtml</comment>
+</data>
+  <data name="Start" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Item/Components/QuestionInContext/Default.cshtml</comment>
+</data>
+  <data name="{0} questions before..." xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Item/Components/QuestionInContext/Default.cshtml</comment>
+</data>
+  <data name="{0} questions after..." xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Item/Components/QuestionInContext/Default.cshtml</comment>
+</data>
+  <data name="View the complete instrument" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Item/Components/QuestionInContext/Default.cshtml</comment>
+</data>
+  <data name="Dataset" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Item/Components/StatisticsForVariable/Default.cshtml</comment>
+</data>
+  <data name="Appears Within" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Item/Item.cshtml</comment>
+</data>
+  <data name="Information" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Item/Item.cshtml</comment>
+</data>
+  <data name="History" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Item/Item.cshtml</comment>
+</data>
+  <data name="Agency" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Item/Item.cshtml</comment>
+</data>
+  <data name="Identifier" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Item/Item.cshtml</comment>
+</data>
+  <data name="Version" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Item/Item.cshtml</comment>
+</data>
+  <data name="Last Updated" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Item/Item.cshtml</comment>
+</data>
+  <data name="Updated by" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Item/Item.cshtml</comment>
+</data>
+  <data name="Rationale" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Item/Item.cshtml</comment>
+</data>
+  <data name="Revision" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Item/Item.cshtml</comment>
+</data>
+  <data name="PDF" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Item/Item.cshtml</comment>
+</data>
+  <data name="DDI 3.2" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Item/Item.cshtml</comment>
+</data>
+  <data name="DDI 3.1" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Item/Item.cshtml</comment>
+</data>
+  <data name="JSON" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Item/Item.cshtml</comment>
+</data>
+  <data name="Users Also Viewed" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Item/Item.cshtml</comment>
+</data>
+  <data name="Rating" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Item/Item.cshtml</comment>
+</data>
+  <data name="Average rating:" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Item/Item.cshtml</comment>
+</data>
+  <data name="Be the first to rate this item." xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Item/Item.cshtml</comment>
+</data>
+  <data name="Comments" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Item/Item.cshtml</comment>
+</data>
+  <data name="Add a Comment" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Item/Item.cshtml</comment>
+</data>
+  <data name="Nobody has commented on this item." xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Item/Item.cshtml</comment>
+</data>
+  <data name="on" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Item/Item.cshtml</comment>
+</data>
+  <data name="Poor" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Item/Item.cshtml</comment>
+</data>
+  <data name="Fair" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Item/Item.cshtml</comment>
+</data>
+  <data name="Good" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Item/Item.cshtml</comment>
+</data>
+  <data name="Very Good" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Item/Item.cshtml</comment>
+</data>
+  <data name="Excellent" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Item/Item.cshtml</comment>
+</data>
+  <data name="{0} Configuration" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/ItemType/Edit.cshtml</comment>
+</data>
+  <data name="Active" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/ItemType/Edit.cshtml</comment>
+</data>
+  <data name="Allow" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/ItemType/Edit.cshtml</comment>
+</data>
+  <data name="Search Within" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/ItemType/Edit.cshtml</comment>
+</data>
+  <data name="Appears Within Item Types" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/ItemType/Edit.cshtml</comment>
+</data>
+  <data name="Search Within Item Types" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/ItemType/Edit.cshtml</comment>
+</data>
+  <data name="Item Type Configuration" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/ItemType/Index.cshtml</comment>
+</data>
+  <data name="Language Sort Order" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Languages/Index.cshtml</comment>
+</data>
+  <data name="Add" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Languages/Index.cshtml</comment>
+</data>
+  <data name="Restore Defaults" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Languages/Index.cshtml</comment>
+</data>
+  <data name="Add Phone Number" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Manage/AddPhoneNumber.cshtml</comment>
+</data>
+  <data name="Add a phone number" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Manage/AddPhoneNumber.cshtml</comment>
+</data>
+  <data name="Phone Number" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Manage/AddPhoneNumber.cshtml</comment>
+</data>
+  <data name="Change Password" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Manage/ChangePassword.cshtml</comment>
+</data>
+  <data name="Old Password" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Manage/ChangePassword.cshtml</comment>
+</data>
+  <data name="New Password" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Manage/ChangePassword.cshtml</comment>
+</data>
+  <data name="Manage your account" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Manage/Index.cshtml</comment>
+</data>
+  <data name="Password:" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Manage/Index.cshtml</comment>
+</data>
+  <data name="Change" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Manage/Index.cshtml</comment>
+</data>
+  <data name="Manage your external logins" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Manage/ManageLogins.cshtml</comment>
+</data>
+  <data name="Registered Logins" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Manage/ManageLogins.cshtml</comment>
+</data>
+  <data name="Remove this @account.LoginProvider login from your account" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Manage/ManageLogins.cshtml</comment>
+</data>
+  <data name="Add another service to log in." xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Manage/ManageLogins.cshtml</comment>
+</data>
+  <data name="Log in using your @provider.DisplayName account" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Manage/ManageLogins.cshtml</comment>
+</data>
+  <data name="Remove Login" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Manage/RemoveLogin.cshtml</comment>
+</data>
+  <data name="Set Password" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Manage/SetPassword.cshtml</comment>
+</data>
+  <data name="You do not have a local username/password for this site. Add a local account so you can log in without an external login." xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Manage/SetPassword.cshtml</comment>
+</data>
+  <data name="Set your password" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Manage/SetPassword.cshtml</comment>
+</data>
+  <data name="Verify Phone Number" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Manage/VerifyPhoneNumber.cshtml</comment>
+</data>
+  <data name="More..." xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Search/Results.cshtml</comment>
+</data>
+  <data name="Refine" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Search/Results.cshtml</comment>
+</data>
+  <data name="Life Stage" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Search/Results.cshtml</comment>
+</data>
+  <data name="Pregnancy, birth and infancy" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Search/Results.cshtml</comment>
+</data>
+  <data name="Early years" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Search/Results.cshtml</comment>
+</data>
+  <data name="Childhood" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Search/Results.cshtml</comment>
+</data>
+  <data name="Adolescence" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Search/Results.cshtml</comment>
+</data>
+  <data name="Mid-adulthood" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Search/Results.cshtml</comment>
+</data>
+  <data name="Third age" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Search/Results.cshtml</comment>
+</data>
+  <data name="Topic" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Search/Results.cshtml</comment>
+</data>
+  <data name="Syntax" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Search/Results.cshtml</comment>
+</data>
+  <data name="Item types:" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Search/Results.cshtml</comment>
+</data>
+  <data name="Query:" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Search/Results.cshtml</comment>
+</data>
+  <data name="Search within:" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Search/Results.cshtml</comment>
+</data>
+  <data name="Search life stages:" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Search/Results.cshtml</comment>
+</data>
+  <data name="No results were found." xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Search/Results.cshtml</comment>
+</data>
+  <data name="Results" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Search/Results.cshtml</comment>
+</data>
+  <data name="to" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Search/Results.cshtml</comment>
+</data>
+  <data name="of" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Search/Results.cshtml</comment>
+</data>
+  <data name="Enter a search query above to get started." xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Search/Results.cshtml</comment>
+</data>
+  <data name="Item Types to Search" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Search/Results.cshtml</comment>
+</data>
+  <data name="Query Text Syntax" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Search/Results.cshtml</comment>
+</data>
+  <data name="Example" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Search/Results.cshtml</comment>
+</data>
+  <data name="Description" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Search/Results.cshtml</comment>
+</data>
+  <data name="Multiple Choice Response Options" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/CompositeControls/DisplayTemplates/CodeDomain.cshtml</comment>
+</data>
+  <data name="Response Description" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/CompositeControls/DisplayTemplates/CodeDomain.cshtml</comment>
+</data>
+  <data name="Selection Style" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/CompositeControls/DisplayTemplates/CodeDomain.cshtml</comment>
+</data>
+  <data name="Select up to" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/CompositeControls/DisplayTemplates/CodeDomain.cshtml</comment>
+</data>
+  <data name="Codes" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/CompositeControls/DisplayTemplates/CodeDomain.cshtml</comment>
+</data>
+  <data name="Blank values represent missing values" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/CompositeControls/DisplayTemplates/CodeDomain.cshtml</comment>
+</data>
+  <data name="Topical Coverage" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/CompositeControls/DisplayTemplates/Coverage.cshtml</comment>
+</data>
+  <data name="Subjects" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/CompositeControls/DisplayTemplates/Coverage.cshtml</comment>
+</data>
+  <data name="Keywords" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/CompositeControls/DisplayTemplates/Coverage.cshtml</comment>
+</data>
+  <data name="Time" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/CompositeControls/DisplayTemplates/Coverage.cshtml</comment>
+</data>
+  <data name="Date" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/CompositeControls/DisplayTemplates/Coverage.cshtml</comment>
+</data>
+  <data name="Geography" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/CompositeControls/DisplayTemplates/Coverage.cshtml</comment>
+</data>
+  <data name="Geographical Coverage Description" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/CompositeControls/DisplayTemplates/Coverage.cshtml</comment>
+</data>
+  <data name="Highest Level" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/CompositeControls/DisplayTemplates/Coverage.cshtml</comment>
+</data>
+  <data name="Lowest Level" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/CompositeControls/DisplayTemplates/Coverage.cshtml</comment>
+</data>
+  <data name="Country" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/CompositeControls/DisplayTemplates/Coverage.cshtml</comment>
+</data>
+  <data name="Bounding Box" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/CompositeControls/DisplayTemplates/Coverage.cshtml</comment>
+</data>
+  <data name="South Latitude" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/CompositeControls/DisplayTemplates/Coverage.cshtml</comment>
+</data>
+  <data name="West Longitude" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/CompositeControls/DisplayTemplates/Coverage.cshtml</comment>
+</data>
+  <data name="North Latitude" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/CompositeControls/DisplayTemplates/Coverage.cshtml</comment>
+</data>
+  <data name="East Longitude" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/CompositeControls/DisplayTemplates/Coverage.cshtml</comment>
+</data>
+  <data name="Date/Time Response Options" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/CompositeControls/DisplayTemplates/DateTimeDomain.cshtml</comment>
+</data>
+  <data name="Type" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/CompositeControls/DisplayTemplates/DateTimeDomain.cshtml</comment>
+</data>
+  <data name="Title" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/CompositeControls/DisplayTemplates/DublinCore.cshtml</comment>
+</data>
+  <data name="Subtitle" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/CompositeControls/DisplayTemplates/DublinCore.cshtml</comment>
+</data>
+  <data name="Alternate Title" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/CompositeControls/DisplayTemplates/DublinCore.cshtml</comment>
+</data>
+  <data name="Creator" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/CompositeControls/DisplayTemplates/DublinCore.cshtml</comment>
+</data>
+  <data name="Subject" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/CompositeControls/DisplayTemplates/DublinCore.cshtml</comment>
+</data>
+  <data name="Publisher" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/CompositeControls/DisplayTemplates/DublinCore.cshtml</comment>
+</data>
+  <data name="Contributor" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/CompositeControls/DisplayTemplates/DublinCore.cshtml</comment>
+</data>
+  <data name="Format" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/CompositeControls/DisplayTemplates/DublinCore.cshtml</comment>
+</data>
+  <data name="Source" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/CompositeControls/DisplayTemplates/DublinCore.cshtml</comment>
+</data>
+  <data name="Relation" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/CompositeControls/DisplayTemplates/DublinCore.cshtml</comment>
+</data>
+  <data name="Coverage" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/CompositeControls/DisplayTemplates/DublinCore.cshtml</comment>
+</data>
+  <data name="Rights" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/CompositeControls/DisplayTemplates/DublinCore.cshtml</comment>
+</data>
+  <data name="Grant Number" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/CompositeControls/DisplayTemplates/FundingInformation.cshtml</comment>
+</data>
+  <data name="Role" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/CompositeControls/DisplayTemplates/FundingInformation.cshtml</comment>
+</data>
+  <data name="Numeric Response Options" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/CompositeControls/DisplayTemplates/NumericDomain.cshtml</comment>
+</data>
+  <data name="Minimum" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/CompositeControls/DisplayTemplates/NumericDomain.cshtml</comment>
+</data>
+  <data name="Maximum" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/CompositeControls/DisplayTemplates/NumericDomain.cshtml</comment>
+</data>
+  <data name="Scale" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/CompositeControls/DisplayTemplates/NumericDomain.cshtml</comment>
+</data>
+  <data name="Decimal Positions" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/CompositeControls/DisplayTemplates/NumericDomain.cshtml</comment>
+</data>
+  <data name="Variable is a Weight" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/CompositeControls/DisplayTemplates/NumericDomain.cshtml</comment>
+</data>
+  <data name="Code Dimension" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/CompositeControls/DisplayTemplates/QuestionGridDimension.cshtml</comment>
+</data>
+  <data name="Display Code" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/CompositeControls/DisplayTemplates/QuestionGridDimension.cshtml</comment>
+</data>
+  <data name="Display Label" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/CompositeControls/DisplayTemplates/QuestionGridDimension.cshtml</comment>
+</data>
+  <data name="Roster" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/CompositeControls/DisplayTemplates/QuestionGridDimension.cshtml</comment>
+</data>
+  <data name="First Value" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/CompositeControls/DisplayTemplates/QuestionGridDimension.cshtml</comment>
+</data>
+  <data name="Increase Value by" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/CompositeControls/DisplayTemplates/QuestionGridDimension.cshtml</comment>
+</data>
+  <data name="Minimum Required" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/CompositeControls/DisplayTemplates/QuestionGridDimension.cshtml</comment>
+</data>
+  <data name="Maximum Allowed" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/CompositeControls/DisplayTemplates/QuestionGridDimension.cshtml</comment>
+</data>
+  <data name="Text Response Options" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/CompositeControls/DisplayTemplates/TextDomain.cshtml</comment>
+</data>
+  <data name="Minimum Length" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/CompositeControls/DisplayTemplates/TextDomain.cshtml</comment>
+</data>
+  <data name="Maximum Length" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/CompositeControls/DisplayTemplates/TextDomain.cshtml</comment>
+</data>
+  <data name="Regular Expression" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/CompositeControls/DisplayTemplates/TextDomain.cshtml</comment>
+</data>
+  <data name="Error" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/Error.cshtml</comment>
+</data>
+  <data name="An error occurred while processing your request" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/Error.cshtml</comment>
+</data>
+  <data name="Question Grid" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/InstrumentPreview/Flowchart.cshtml</comment>
+</data>
+  <data name="Question Block" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/InstrumentPreview/Flowchart.cshtml</comment>
+</data>
+  <data name="Statement" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/InstrumentPreview/StatementActivity.cshtml</comment>
+</data>
+  <data name="Source Code" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/ActionActivity.cshtml</comment>
+</data>
+  <data name="Concept" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/Category.cshtml</comment>
+</data>
+  <data name="Is Missing" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/Category.cshtml</comment>
+</data>
+  <data name="Categories" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/CategoryScheme.cshtml</comment>
+</data>
+  <data name="Category Groups" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/CategoryScheme.cshtml</comment>
+</data>
+  <data name="Levels" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/CodeList.cshtml</comment>
+</data>
+  <data name="Level {0}" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/CodeList.cshtml</comment>
+</data>
+  <data name="Number" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/CodeList.cshtml</comment>
+</data>
+  <data name="Relationship Type" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/CodeList.cshtml</comment>
+</data>
+  <data name="Category Scheme" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/CodeList.cshtml</comment>
+</data>
+  <data name="Code Lists" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/CodeListScheme.cshtml</comment>
+</data>
+  <data name="Code List Groups" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/CodeListScheme.cshtml</comment>
+</data>
+  <data name="Related Variables" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/Concept.cshtml</comment>
+</data>
+  <data name="Synonym" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/Concept.cshtml</comment>
+</data>
+  <data name="Subclass-of" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/Concept.cshtml</comment>
+</data>
+  <data name="Type-of" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/Concept.cshtml</comment>
+</data>
+  <data name="Concepts" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/ConceptScheme.cshtml</comment>
+</data>
+  <data name="Concept Groups" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/ConceptScheme.cshtml</comment>
+</data>
+  <data name="Conceptual Variable" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/ConceptualVariable.cshtml</comment>
+</data>
+  <data name="Concordance Variables" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/ConceptualVariable.cshtml</comment>
+</data>
+  <data name="Universe" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/ConceptualVariable.cshtml</comment>
+</data>
+  <data name="Control Constructs" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/ControlConstructScheme.cshtml</comment>
+</data>
+  <data name="Control Construct Groups" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/ControlConstructScheme.cshtml</comment>
+</data>
+  <data name="Initial Value" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/CustomLoopActivity.cshtml</comment>
+</data>
+  <data name="Condition" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/CustomLoopActivity.cshtml</comment>
+</data>
+  <data name="Step Value" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/CustomLoopActivity.cshtml</comment>
+</data>
+  <data name="Sequence" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/CustomLoopActivity.cshtml</comment>
+</data>
+  <data name="Execution Order" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/CustomSequenceActivity.cshtml</comment>
+</data>
+  <data name="Other Execution Order" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/CustomSequenceActivity.cshtml</comment>
+</data>
+  <data name="Type of Sequence" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/CustomSequenceActivity.cshtml</comment>
+</data>
+  <data name="Data Processing" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/DataCollection.cshtml</comment>
+</data>
+  <data name="Extra" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/DataCollection.cshtml</comment>
+</data>
+  <data name="Methodology" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/DataCollection.cshtml</comment>
+</data>
+  <data name="Collection Organization" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/DataCollection.cshtml</comment>
+</data>
+  <data name="Data Collection Date" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/DataCollection.cshtml</comment>
+</data>
+  <data name="Data Collection Frequency" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/DataCollection.cshtml</comment>
+</data>
+  <data name="Mode of Data Collection" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/DataCollection.cshtml</comment>
+</data>
+  <data name="Instruments" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/DataCollection.cshtml</comment>
+</data>
+  <data name="Instrument Schemes" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/DataCollection.cshtml</comment>
+</data>
+  <data name="Processing Event Schemes" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/DataCollection.cshtml</comment>
+</data>
+  <data name="Processing Instruction Schemes" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/DataCollection.cshtml</comment>
+</data>
+  <data name="Series" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/DdiInstance.cshtml</comment>
+</data>
+  <data name="Metadata Packages" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/DdiInstance.cshtml</comment>
+</data>
+  <data name="Funding" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/Group.cshtml</comment>
+</data>
+  <data name="Abstract" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/Group.cshtml</comment>
+</data>
+  <data name="Purpose" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/Group.cshtml</comment>
+</data>
+  <data name="Cross Reference Tables" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/Group.cshtml</comment>
+</data>
+  <data name="Data Collections" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/Group.cshtml</comment>
+</data>
+  <data name="Quality Statements" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/Group.cshtml</comment>
+</data>
+  <data name="Archives" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/Group.cshtml</comment>
+</data>
+  <data name="Flowchart" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/Instrument.cshtml</comment>
+</data>
+  <data name="External Instrument Location" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/Instrument.cshtml</comment>
+</data>
+  <data name="Instrument Groups" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/InstrumentScheme.cshtml</comment>
+</data>
+  <data name="Category Schemes" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/LogicalProduct.cshtml</comment>
+</data>
+  <data name="Code List Schemes" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/LogicalProduct.cshtml</comment>
+</data>
+  <data name="Variable Schemes" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/LogicalProduct.cshtml</comment>
+</data>
+  <data name="NCube Schemes" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/LogicalProduct.cshtml</comment>
+</data>
+  <data name="Data Relationships" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/LogicalProduct.cshtml</comment>
+</data>
+  <data name="Missing Values" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/ManagedMissingValuesRepresentation.cshtml</comment>
+</data>
+  <data name="Nickname" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/Organization.cshtml</comment>
+</data>
+  <data name="Organization ID" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/Organization.cshtml</comment>
+</data>
+  <data name="Registry ID" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/Organization.cshtml</comment>
+</data>
+  <data name="Image URI" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/Organization.cshtml</comment>
+</data>
+  <data name="Browse Data" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/PhysicalInstance.cshtml</comment>
+</data>
+  <data name="File Format" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/PhysicalInstance.cshtml</comment>
+</data>
+  <data name="Delimiter" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/PhysicalInstance.cshtml</comment>
+</data>
+  <data name="Case Quantity" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/PhysicalInstance.cshtml</comment>
+</data>
+  <data name="File Location" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/PhysicalInstance.cshtml</comment>
+</data>
+  <data name="Data Layout" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/PhysicalInstance.cshtml</comment>
+</data>
+  <data name="External Aids" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/Question.cshtml</comment>
+</data>
+  <data name="Conceptual" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/Question.cshtml</comment>
+</data>
+  <data name="Parameters" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/Question.cshtml</comment>
+</data>
+  <data name="Question Text" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/Question.cshtml</comment>
+</data>
+  <data name="Question Intent" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/Question.cshtml</comment>
+</data>
+  <data name="Analysis Unit" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/QuestionActivity.cshtml</comment>
+</data>
+  <data name="Response Unit" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/QuestionActivity.cshtml</comment>
+</data>
+  <data name="Question Grids" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/QuestionScheme.cshtml</comment>
+</data>
+  <data name="Question Blocks" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/QuestionScheme.cshtml</comment>
+</data>
+  <data name="Question Groups" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/QuestionScheme.cshtml</comment>
+</data>
+  <data name="Represented Variable" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/RepresentedVariable.cshtml</comment>
+</data>
+  <data name="Category Set" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/RepresentedVariable.cshtml</comment>
+</data>
+  <data name="Metadata Package" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/ResourcePackage.cshtml</comment>
+</data>
+  <data name="Question Schemes" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/ResourcePackage.cshtml</comment>
+</data>
+  <data name="Interview Instruction Schemes" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/ResourcePackage.cshtml</comment>
+</data>
+  <data name="Control Construct Schemes" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/ResourcePackage.cshtml</comment>
+</data>
+  <data name="Physical Instances" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/ResourcePackage.cshtml</comment>
+</data>
+  <data name="Managed Representation Schemes" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/ResourcePackage.cshtml</comment>
+</data>
+  <data name="Conceptual Variable Schemes" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/ResourcePackage.cshtml</comment>
+</data>
+  <data name="Represented Variable Schemes" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/ResourcePackage.cshtml</comment>
+</data>
+  <data name="Concept Schemes" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/ResourcePackage.cshtml</comment>
+</data>
+  <data name="Organization Schemes" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/ResourcePackage.cshtml</comment>
+</data>
+  <data name="Universe Schemes" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/ResourcePackage.cshtml</comment>
+</data>
+  <data name="Quality Statement Schemes" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/ResourcePackage.cshtml</comment>
+</data>
+  <data name="Conceptual Components" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/ResourcePackage.cshtml</comment>
+</data>
+  <data name="Logical Products" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/ResourcePackage.cshtml</comment>
+</data>
+  <data name="Physical Products" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/ResourcePackage.cshtml</comment>
+</data>
+  <data name="Physical Structure Schemes" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/ResourcePackage.cshtml</comment>
+</data>
+  <data name="Record Layout Schemes" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/ResourcePackage.cshtml</comment>
+</data>
+  <data name="Estimated Time" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/StatementActivity.cshtml</comment>
+</data>
+  <data name="Study" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/StudyUnit.cshtml</comment>
+</data>
+  <data name="Data" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/StudyUnit.cshtml</comment>
+</data>
+  <data name="Kinds of Data" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/StudyUnit.cshtml</comment>
+</data>
+  <data name="Data Files" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/StudyUnit.cshtml</comment>
+</data>
+  <data name="Archive Information" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/StudyUnit.cshtml</comment>
+</data>
+  <data name="Is Inclusive" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/Universe.cshtml</comment>
+</data>
+  <data name="Defining Concept" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/Universe.cshtml</comment>
+</data>
+  <data name="Universes" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/UniverseScheme.cshtml</comment>
+</data>
+  <data name="Universe Groups" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/UniverseScheme.cshtml</comment>
+</data>
+  <data name="The view for this item is forthcoming." xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/Unsupported.cshtml</comment>
+</data>
+  <data name="Sources" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/Variable.cshtml</comment>
+</data>
+  <data name="Measurement Unit" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/Variable.cshtml</comment>
+</data>
+  <data name="Aggregation Method" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/Variable.cshtml</comment>
+</data>
+  <data name="Source Questions" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/Variable.cshtml</comment>
+</data>
+  <data name="Source Variables" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/Variable.cshtml</comment>
+</data>
+  <data name="Variable Groups" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/ItemControls/DisplayTemplates/VariableScheme.cshtml</comment>
+</data>
+  <data name="Analytics" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/_AdminNavigation.cshtml</comment>
+</data>
+  <data name="System Status" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/_AdminNavigation.cshtml</comment>
+</data>
+  <data name="Site Information" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/_AdminNavigation.cshtml</comment>
+</data>
+  <data name="Item Types" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/_AdminNavigation.cshtml</comment>
+</data>
+  <data name="Languages" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/_AdminNavigation.cshtml</comment>
+</data>
+  <data name="Services" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/_AdminNavigation.cshtml</comment>
+</data>
+  <data name="File Storage Service" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/_AdminNavigation.cshtml</comment>
+</data>
+  <data name="Backward Skip" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/_CustomFields.cshtml</comment>
+</data>
+  <data name="Forward Skip" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/_CustomFields.cshtml</comment>
+</data>
+  <data name="Pre-Question Text" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/_CustomFields.cshtml</comment>
+</data>
+  <data name="Post-Question Text" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/_CustomFields.cshtml</comment>
+</data>
+  <data name="Interviewer Instructions" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/_CustomFields.cshtml</comment>
+</data>
+  <data name="Instrument Download" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/_CustomFields.cshtml</comment>
+</data>
+  <data name="Help for this Page" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/_RDashLayout.cshtml</comment>
+</data>
+  <data name="General Help" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/_RDashLayout.cshtml</comment>
+</data>
+  <data name="Feedback" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/_RDashLayout.cshtml</comment>
+</data>
+  <data name="Profile" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/_RDashLayout.cshtml</comment>
+</data>
+  <data name="Manage Account" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/_RDashLayout.cshtml</comment>
+</data>
+  <data name="Log off" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/_RDashLayout.cshtml</comment>
+</data>
+  <data name="Create an Account" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/Shared/_RDashLayout.cshtml</comment>
+</data>
+  <data name="Site Title" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/SiteInformation/Index.cshtml</comment>
+</data>
+  <data name="Footer Text" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/SiteInformation/Index.cshtml</comment>
+</data>
+  <data name="HTML before &lt;/body&gt;" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/SiteInformation/Index.cshtml</comment>
+</data>
+  <data name="Theme Name" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/SiteInformation/Index.cshtml</comment>
+</data>
+  <data name="Is registration allowed" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/SiteInformation/Index.cshtml</comment>
+</data>
+  <data name="Allow searching all types" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/SiteInformation/Index.cshtml</comment>
+</data>
+  <data name="Allow Commenting" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/SiteInformation/Index.cshtml</comment>
+</data>
+  <data name="Allow Rating" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/SiteInformation/Index.cshtml</comment>
+</data>
+  <data name="Display EU Cookie Warning" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/SiteInformation/Index.cshtml</comment>
+</data>
+  <data name="Allow Data Download" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/SiteInformation/Index.cshtml</comment>
+</data>
+  <data name="Welcome Message" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/SiteInformation/Index.cshtml</comment>
+</data>
+  <data name="Custom HTML Content" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/SiteInformation/Index.cshtml</comment>
+</data>
+  <data name="Show Search" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/SiteInformation/Index.cshtml</comment>
+</data>
+  <data name="Types to Search" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/SiteInformation/Index.cshtml</comment>
+</data>
+  <data name="Show Life Stage search facet" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/SiteInformation/Index.cshtml</comment>
+</data>
+  <data name="Show Topic search facet" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/SiteInformation/Index.cshtml</comment>
+</data>
+  <data name="Visible Item Types" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/SiteInformation/Index.cshtml</comment>
+</data>
+  <data name="Edit Types to Search" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/SiteInformation/Index.cshtml</comment>
+</data>
+  <data name="Login" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/SiteInformation/Index.cshtml</comment>
+</data>
+  <data name="Content" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/SiteInformation/Index.cshtml</comment>
+</data>
+  <data name="Message for /explore" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/SiteInformation/Index.cshtml</comment>
+</data>
+  <data name="Help Links" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/SiteInformation/Index.cshtml</comment>
+</data>
+  <data name="SMTP Host" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/SiteInformation/Index.cshtml</comment>
+</data>
+  <data name="SMTP Port" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/SiteInformation/Index.cshtml</comment>
+</data>
+  <data name="SMTP User Name" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/SiteInformation/Index.cshtml</comment>
+</data>
+  <data name="SMTP Password" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/SiteInformation/Index.cshtml</comment>
+</data>
+  <data name="Reply-to Address" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/SiteInformation/Index.cshtml</comment>
+</data>
+  <data name="Email Address for Feedback" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/SiteInformation/Index.cshtml</comment>
+</data>
+  <data name="Types Allowed in Basket" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/SiteInformation/Index.cshtml</comment>
+</data>
+  <data name="Edit Types Allowed in Basket" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/SiteInformation/Index.cshtml</comment>
+</data>
+  <data name="User Profile" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/SiteInformation/Index.cshtml</comment>
+</data>
+  <data name="Position Choices (one per line)" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/SiteInformation/Index.cshtml</comment>
+</data>
+  <data name="Header Text" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/SiteInformation/Index.cshtml</comment>
+</data>
+  <data name="Include Cover Page" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/SiteInformation/Index.cshtml</comment>
+</data>
+  <data name="Cover Page Image" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/SiteInformation/Index.cshtml</comment>
+</data>
+  <data name="Include Table of Contents" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/SiteInformation/Index.cshtml</comment>
+</data>
+  <data name="Page Size" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/SiteInformation/Index.cshtml</comment>
+</data>
+  <data name="API" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/SiteInformation/Index.cshtml</comment>
+</data>
+  <data name="Enable API v1" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/SiteInformation/Index.cshtml</comment>
+</data>
+  <data name="Home Page Search Types" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/SiteInformation/Index.cshtml</comment>
+</data>
+  <data name="Home Page Item Count Types" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/SiteInformation/Index.cshtml</comment>
+</data>
+  <data name="Component" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/SystemStatus/Index.cshtml</comment>
+</data>
+  <data name="Status" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/SystemStatus/Index.cshtml</comment>
+</data>
+  <data name="Repository Database" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/SystemStatus/Index.cshtml</comment>
+</data>
+  <data name="Working" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/SystemStatus/Index.cshtml</comment>
+</data>
+  <data name="Not working" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/SystemStatus/Index.cshtml</comment>
+</data>
+  <data name="Authentication Database" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/SystemStatus/Index.cshtml</comment>
+</data>
+  <data name="Redis Cache" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/SystemStatus/Index.cshtml</comment>
+</data>
+  <data name="Elasticsearch" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/SystemStatus/Index.cshtml</comment>
+</data>
+  <data name="{0} indices" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/SystemStatus/Index.cshtml</comment>
+</data>
+  <data name="Create New User" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/User/Create.cshtml</comment>
+</data>
+  <data name="User Information" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/User/Create.cshtml</comment>
+</data>
+  <data name="Create User" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/User/Create.cshtml</comment>
+</data>
+  <data name="User: " xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/User/Details.cshtml</comment>
+</data>
+  <data name="User Name" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/User/Details.cshtml</comment>
+</data>
+  <data name="Confirmed" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/User/Details.cshtml</comment>
+</data>
+  <data name="Unconfirmed" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/User/Details.cshtml</comment>
+</data>
+  <data name="Edit Details" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/User/Details.cshtml</comment>
+</data>
+  <data name="Edit Roles" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/User/Details.cshtml</comment>
+</data>
+  <data name="Failed Access Attempts" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/User/Details.cshtml</comment>
+</data>
+  <data name="Two Factor Authentication Enabled" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/User/Details.cshtml</comment>
+</data>
+  <data name="Email Confirmed" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/User/Edit.cshtml</comment>
+</data>
+  <data name="User Management" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/User/Index.cshtml</comment>
+</data>
+  <data name="Administrator" xml:space="preserve">
+    <value>TODO</value>
+    <comment>./Views/User/Index.cshtml</comment>
+</data>
+
+</root>
