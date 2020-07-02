@@ -186,7 +186,7 @@
     <comment>DDI Content</comment>
   </data>
   <data name="CodeList_Singular" xml:space="preserve">
-    <value>Code Set</value>
+    <value>Code List</value>
     <comment>DDI Content</comment>
   </data>
   <data name="Category_Singular" xml:space="preserve">
@@ -366,7 +366,7 @@
     <comment>DDI Content</comment>
   </data>
   <data name="CodeList_Plural" xml:space="preserve">
-    <value>Code Sets</value>
+    <value>Code Lists</value>
     <comment>DDI Content</comment>
   </data>
   <data name="Category_Plural" xml:space="preserve">
@@ -759,6 +759,182 @@
   </data>
   <data name="Group_Plural" xml:space="preserve">
     <value>Series</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="LogicalRecord_Singular" xml:space="preserve">
+    <value>Logical Record</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="Loop_Plural" xml:space="preserve">
+    <value>Loops</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="SubGroup_Plural" xml:space="preserve">
+    <value>SubSeries</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="SubGroup_Singular" xml:space="preserve">
+    <value>SubSeries</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="ManagedDateTimeRepresentation_Plural" xml:space="preserve">
+    <value>Managed DateTime Representations</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="ManagedDateTimeRepresentation_Singular" xml:space="preserve">
+    <value>Managed DateTime Representation</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="ManagedNumericRepresentation_Plural" xml:space="preserve">
+    <value>Managed Numeric Representations</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="ManagedNumericRepresentation_Singular" xml:space="preserve">
+    <value>Managed Numeric Representation</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="ManagedScaleRepresentation_Plural" xml:space="preserve">
+    <value>Managed Scale Representations</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="ManagedScaleRepresentation_Singular" xml:space="preserve">
+    <value>Managed Scale Representation</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="ManagedTextRepresentation_Plural" xml:space="preserve">
+    <value>Managed Text Representations</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="ManagedTextRepresentation_Singular" xml:space="preserve">
+    <value>Managed Text Representation</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="ClassificationFamily_Plural" xml:space="preserve">
+    <value>Classification Families</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="ClassificationFamily_Singular" xml:space="preserve">
+    <value>Classification Family</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="ClassificationIndex_Plural" xml:space="preserve">
+    <value>Classification Indexes</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="ClassificationIndex_Singular" xml:space="preserve">
+    <value>Classification Index</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="ClassificationItem_Plural" xml:space="preserve">
+    <value>Classification Items</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="ClassificationItem_Singular" xml:space="preserve">
+    <value>Classification Item</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="ClassificationLevel_Plural" xml:space="preserve">
+    <value>Classification Levels</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="ClassificationLevel_Singular" xml:space="preserve">
+    <value>Classification Level</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="ClassificationSeries_Plural" xml:space="preserve">
+    <value>Classification Series</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="ClassificationSeries_Singular" xml:space="preserve">
+    <value>Classification Series</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="OtherMaterial_Plural" xml:space="preserve">
+    <value>Other Materials</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="OtherMaterial_Singular" xml:space="preserve">
+    <value>Other Material</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="StatisticalClassification_Plural" xml:space="preserve">
+    <value>Statistical Classifications</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="StatisticalClassification_Singular" xml:space="preserve">
+    <value>Statistical Classification</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="UnitTypeGroup_Plural" xml:space="preserve">
+    <value>Unit Type Groups</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="UnitTypeGroup_Singular" xml:space="preserve">
+    <value>Unit Type Group</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="UnitTypeScheme_Plural" xml:space="preserve">
+    <value>Unit Type Sets</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="UnitTypeScheme_Singular" xml:space="preserve">
+    <value>Unit Type Set</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="UnitType_Plural" xml:space="preserve">
+    <value>Unit Types</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="UnitType_Singular" xml:space="preserve">
+    <value>Unit Type</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="ClassificationCorrespondenceTable_Plural" xml:space="preserve">
+    <value>Classification Correspondence Tables</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="ClassificationCorrespondenceTable_Singular" xml:space="preserve">
+    <value>Classification Correspondence Table</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="OtherMaterialGroup_Plural" xml:space="preserve">
+    <value>Other Material Groups</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="OtherMaterialGroup_Singular" xml:space="preserve">
+    <value>Other Material Group</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="OtherMaterialScheme_Plural" xml:space="preserve">
+    <value>Other Material Schemes</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="OtherMaterialScheme_Singular" xml:space="preserve">
+    <value>Other Material Scheme</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="Individual_Plural" xml:space="preserve">
+    <value>Individuals</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="Individual_Singular" xml:space="preserve">
+    <value>Individual</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="Measurement_Plural" xml:space="preserve">
+    <value>Measurements</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="Measurement_Single" xml:space="preserve">
+    <value>Measurement</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="MeasurementActivity_Plural" xml:space="preserve">
+    <value>Measurement Constructs</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="MeasurementActivity_Singular" xml:space="preserve">
+    <value>Measurement Construct</value>
     <comment>DDI Content</comment>
   </data>
 </root>
