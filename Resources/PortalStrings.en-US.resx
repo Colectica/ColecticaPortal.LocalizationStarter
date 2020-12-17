@@ -3373,7 +3373,7 @@
     <value>TODO</value>
     <comment>/Views/Search/Results.cshtml</comment>
   </data>
-  <data name="Fuzzy search for &lt;em&gt;house&lt;/em&gt;; may include close words like &lt;em&gt;hose&lt;/em&gt; and &lt;em&gt;huse&lt;/em&gt;" xml:space="preserve">
+  <data name="Fuzzy search for *house*; may include close words like *hose* and *huse*" xml:space="preserve">
     <value>TODO</value>
     <comment>/Views/Search/Results.cshtml</comment>
   </data>
@@ -3385,31 +3385,31 @@
     <value>TODO</value>
     <comment>/Views/Search/Results.cshtml</comment>
   </data>
-  <data name="Searches for &lt;em&gt;house&lt;/em&gt; and &lt;em&gt;age&lt;/em&gt; in close proximity to each other" xml:space="preserve">
+  <data name="Searches for *house* and *age* in close proximity to each other" xml:space="preserve">
     <value>TODO</value>
     <comment>/Views/Search/Results.cshtml</comment>
   </data>
-  <data name="Searches for different forms of the word &lt;em&gt;house&lt;/em&gt; AND &lt;em&gt;age&lt;/em&gt;" xml:space="preserve">
+  <data name="Searches for different forms of the word *house* AND *age*" xml:space="preserve">
     <value>TODO</value>
     <comment>/Views/Search/Results.cshtml</comment>
   </data>
-  <data name="Searches for different forms of the word house (e.g., &lt;em&gt;house&lt;/em&gt;, &lt;em&gt;housing&lt;/em&gt;, &lt;em&gt;houses&lt;/em&gt;)" xml:space="preserve">
+  <data name="Searches for different forms of the word house (e.g., *house*, *housing*, *houses*)" xml:space="preserve">
     <value>TODO</value>
     <comment>/Views/Search/Results.cshtml</comment>
   </data>
-  <data name="Searches for either &lt;em&gt;house&lt;/em&gt; or &lt;em&gt;age&lt;/em&gt;" xml:space="preserve">
+  <data name="Searches for either *house* or *age*" xml:space="preserve">
     <value>TODO</value>
     <comment>/Views/Search/Results.cshtml</comment>
   </data>
-  <data name="Searches for items that contain &lt;em&gt;house&lt;/em&gt; but that do &lt;strong&gt;not&lt;/strong&gt; contain &lt;em&gt;age&lt;/em&gt;" xml:space="preserve">
+  <data name="Searches for items that contain *house* but that do &lt;strong&gt;not&lt;/strong&gt; contain *age*" xml:space="preserve">
     <value>TODO</value>
     <comment>/Views/Search/Results.cshtml</comment>
   </data>
-  <data name="Searches for the exact phrase &lt;em&gt;house age&lt;/em&gt;" xml:space="preserve">
+  <data name="Searches for the exact phrase *house age*" xml:space="preserve">
     <value>TODO</value>
     <comment>/Views/Search/Results.cshtml</comment>
   </data>
-  <data name="Searches for the exact term &lt;em&gt;house&lt;/em&gt;; &lt;em&gt;housing&lt;/em&gt; and &lt;em&gt;houses&lt;/em&gt; would not be included" xml:space="preserve">
+  <data name="Searches for the exact term *house*; *housing* and *houses* would not be included" xml:space="preserve">
     <value>TODO</value>
     <comment>/Views/Search/Results.cshtml</comment>
   </data>
