@@ -3369,21 +3369,65 @@
     <value>TODO</value>
     <comment>./Services/BasketHelper.cs</comment>
   </data>
+  <data name="A popup shows details about the selected item, including any descriptive statistics in the metadata." xml:space="preserve">
+    <value>TODO</value>
+    <comment>Tours</comment>
+  </data>
+  <data name="After searching, your results will show here." xml:space="preserve">
+    <value>TODO</value>
+    <comment>Tours</comment>
+  </data>
   <data name="age" xml:space="preserve">
     <value>TODO</value>
     <comment>/Views/Search/Results.cshtml</comment>
+  </data>
+  <data name="Choose the life stages you would like to search within." xml:space="preserve">
+    <value>TODO</value>
+    <comment>Tours</comment>
+  </data>
+  <data name="Choose the topics you would like to search within." xml:space="preserve">
+    <value>TODO</value>
+    <comment>Tours</comment>
+  </data>
+  <data name="Choose which types of items you would like to find." xml:space="preserve">
+    <value>TODO</value>
+    <comment>Tours</comment>
+  </data>
+  <data name="Enter the text you want to find." xml:space="preserve">
+    <value>TODO</value>
+    <comment>Tours</comment>
+  </data>
+  <data name="Finish" xml:space="preserve">
+    <value>TODO</value>
+    <comment>Tours</comment>
   </data>
   <data name="Fuzzy search for *house*; may include close words like *hose* and *huse*" xml:space="preserve">
     <value>TODO</value>
     <comment>/Views/Search/Results.cshtml</comment>
   </data>
+  <data name="Here are your search results. Click the header link to find details about an item." xml:space="preserve">
+    <value>TODO</value>
+    <comment>Tours</comment>
+  </data>
   <data name="house" xml:space="preserve">
     <value>TODO</value>
     <comment>/Views/Search/Results.cshtml</comment>
   </data>
+  <data name="Query" xml:space="preserve">
+    <value>TODO</value>
+    <comment>Tours</comment>
+  </data>
   <data name="Same as above; The \&quot;AND\&quot; is optional" xml:space="preserve">
     <value>TODO</value>
     <comment>/Views/Search/Results.cshtml</comment>
+  </data>
+  <data name="Save interesting things for later in your basket." xml:space="preserve">
+    <value>TODO</value>
+    <comment>Tours</comment>
+  </data>
+  <data name="Search for information by text, topic, and other facets." xml:space="preserve">
+    <value>TODO</value>
+    <comment>Tours</comment>
   </data>
   <data name="Searches for *house* and *age* in close proximity to each other" xml:space="preserve">
     <value>TODO</value>
@@ -3412,5 +3456,41 @@
   <data name="Searches for the exact term *house*; *housing* and *houses* would not be included" xml:space="preserve">
     <value>TODO</value>
     <comment>/Views/Search/Results.cshtml</comment>
+  </data>
+  <data name="The basket lets you save variables, questions, or other items that interest you." xml:space="preserve">
+    <value>TODO</value>
+    <comment>Tours</comment>
+  </data>
+  <data name="The left sidebar shows a list of topics. Select a topic to see variables and other items." xml:space="preserve">
+    <value>TODO</value>
+    <comment>Tours</comment>
+  </data>
+  <data name="Use Explore to point and click through topics to find information." xml:space="preserve">
+    <value>TODO</value>
+    <comment>Tours</comment>
+  </data>
+  <data name="Use these buttons to switch between the concordance views or lists of variables, questions, and other item types." xml:space="preserve">
+    <value>TODO</value>
+    <comment>Tours</comment>
+  </data>
+  <data name="Views" xml:space="preserve">
+    <value>TODO</value>
+    <comment>Tours</comment>
+  </data>
+  <data name="Welcome. Use this portal to find information about variables, questions, and other metadata." xml:space="preserve">
+    <value>TODO</value>
+    <comment>Tours</comment>
+  </data>
+  <data name="When a topic is selected, the concordance table shows variables in that topic. Select a row to see summary statistics." xml:space="preserve">
+    <value>TODO</value>
+    <comment>Tours</comment>
+  </data>
+  <data name="You can create multiple baskets to organize your items however you like." xml:space="preserve">
+    <value>TODO</value>
+    <comment>Tours</comment>
+  </data>
+  <data name="You can download information about items in you basket in various formats." xml:space="preserve">
+    <value>TODO</value>
+    <comment>Tours</comment>
   </data>
 </root>
