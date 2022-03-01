@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
     <AssemblyName>ColecticaRepository</AssemblyName>
-    <RootNamespace>ColecticaRepository</RootNamespace>
+    <RootNamespace>Colectica.Portal</RootNamespace>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
   </PropertyGroup>
 
