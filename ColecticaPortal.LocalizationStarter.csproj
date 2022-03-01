@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
-    <AssemblyName>Colectica.Portal</AssemblyName>
-    <RootNamespace>Colectica.Portal</RootNamespace>
+    <AssemblyName>ColecticaRepository</AssemblyName>
+    <RootNamespace>ColecticaRepository</RootNamespace>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
   </PropertyGroup>
 
