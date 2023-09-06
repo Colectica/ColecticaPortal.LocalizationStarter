@@ -1,0 +1,940 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="QualityStandard_Singular" xml:space="preserve">
+    <value>Quality Standard</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="QualityStatementScheme_Singular" xml:space="preserve">
+    <value>Quality Statement Set</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="QualityStatement_Singular" xml:space="preserve">
+    <value>Quality Statement</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="DdiInstance_Singular" xml:space="preserve">
+    <value>Project</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="VariableGroup_Singular" xml:space="preserve">
+    <value>Variable Group</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="RecordLayout_Singular" xml:space="preserve">
+    <value>RecordLayout</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="RecordLayoutScheme_Singular" xml:space="preserve">
+    <value>RecordLayout Set</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="PhysicalStructureScheme_Singular" xml:space="preserve">
+    <value>PhysicalStructure Set</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="PhysicalDataProduct_Singular" xml:space="preserve">
+    <value>Physical Data Product</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="PhysicalInstance_Singular" xml:space="preserve">
+    <value>Data File</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="RecordRelationship_Singular" xml:space="preserve">
+    <value>Record Relationship</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="DataRelationship_Singular" xml:space="preserve">
+    <value>Data Layout</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="Variable_Singular" xml:space="preserve">
+    <value>Variable</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="VariableScheme_Singular" xml:space="preserve">
+    <value>Variable Set</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="LogicalProduct_Singular" xml:space="preserve">
+    <value>Logical Product</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="DataCollection_Singular" xml:space="preserve">
+    <value>Data Collection</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="Instrument_Singular" xml:space="preserve">
+    <value>Instrument</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="CodeList_Singular" xml:space="preserve">
+    <value>Code List</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="Category_Singular" xml:space="preserve">
+    <value>Category</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="CategoryScheme_Singular" xml:space="preserve">
+    <value>Category Set</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="Question_Singular" xml:space="preserve">
+    <value>Question</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="QuestionScheme_Singular" xml:space="preserve">
+    <value>Question Set</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="StatementActivity_Singular" xml:space="preserve">
+    <value>Statement</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="CustomSequenceActivity_Singular" xml:space="preserve">
+    <value>Sequence</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="CustomWhileActivity_Singular" xml:space="preserve">
+    <value>While</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="CustomRepeatActivity_Singular" xml:space="preserve">
+    <value>Repeat</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="QuestionActivity_Singular" xml:space="preserve">
+    <value>Question Activity</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="Loop_Singular" xml:space="preserve">
+    <value>Loop</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="CustomIfElseActivity_Singular" xml:space="preserve">
+    <value>Conditional</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="ActionActivity_Singular" xml:space="preserve">
+    <value>Action</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="InterviewerInstruction_Singular" xml:space="preserve">
+    <value>Interviewer Instruction</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="InterviewerInstructionScheme_Singular" xml:space="preserve">
+    <value>Interviewer Instruction Set</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="Universe_Singular" xml:space="preserve">
+    <value>Universe</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="UniverseScheme_Singular" xml:space="preserve">
+    <value>Universe Set</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="Concept_Singular" xml:space="preserve">
+    <value>Concept</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="ConceptScheme_Singular" xml:space="preserve">
+    <value>Concept Set</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="Organization_Singular" xml:space="preserve">
+    <value>Organization</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="OrganizationScheme_Singular" xml:space="preserve">
+    <value>Organization Set</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="ConceptualComponent_Singular" xml:space="preserve">
+    <value>Conceptual Component</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="Group_Singular" xml:space="preserve">
+    <value>Series</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="ResourcePackage_Singular" xml:space="preserve">
+    <value>Metadata Package</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="StudyUnit_Singular" xml:space="preserve">
+    <value>Study</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="PhysicalStructure_Singular" xml:space="preserve">
+    <value>Physical Structure</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="QualityStandard_Plural" xml:space="preserve">
+    <value>Quality Standards</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="QualityStatementScheme_Plural" xml:space="preserve">
+    <value>Quality Statement Sets</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="QualityStatement_Plural" xml:space="preserve">
+    <value>Quality Statements</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="DdiInstance_Plural" xml:space="preserve">
+    <value>Projects</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="VariableGroup_Plural" xml:space="preserve">
+    <value>Variable Groups</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="PhysicalStructure_Plural" xml:space="preserve">
+    <value>Physical Structures</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="RecordLayout_Plural" xml:space="preserve">
+    <value>Record Layouts</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="RecordLayoutScheme_Plural" xml:space="preserve">
+    <value>Record Layout Sets</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="PhysicalStructureScheme_Plural" xml:space="preserve">
+    <value>PhysicalStructure Sets</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="PhysicalDataProduct_Plural" xml:space="preserve">
+    <value>Physical Data Products</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="PhysicalInstance_Plural" xml:space="preserve">
+    <value>Data Files</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="RecordRelationship_Plural" xml:space="preserve">
+    <value>Record Relationships</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="LogicalRecord_Plural" xml:space="preserve">
+    <value>Logical Records</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="DataRelationship_Plural" xml:space="preserve">
+    <value>Data Layouts</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="Variable_Plural" xml:space="preserve">
+    <value>Variables</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="VariableScheme_Plural" xml:space="preserve">
+    <value>Variable Sets</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="LogicalProduct_Plural" xml:space="preserve">
+    <value>Logical Products</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="DataCollection_Plural" xml:space="preserve">
+    <value>Data Collections</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="Instrument_Plural" xml:space="preserve">
+    <value>Instruments</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="CodeList_Plural" xml:space="preserve">
+    <value>Code Lists</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="Category_Plural" xml:space="preserve">
+    <value>Categories</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="CategoryScheme_Plural" xml:space="preserve">
+    <value>Category Sets</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="Question_Plural" xml:space="preserve">
+    <value>Questions</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="QuestionScheme_Plural" xml:space="preserve">
+    <value>Question Sets</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="StatementActivity_Plural" xml:space="preserve">
+    <value>Statements</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="CustomSequenceActivity_Plural" xml:space="preserve">
+    <value>Sequences</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="CustomWhileActivity_Plural" xml:space="preserve">
+    <value>Whiles</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="CustomRepeatActivity_Plural" xml:space="preserve">
+    <value>Repeats</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="CustomLoopActivity_Plural" xml:space="preserve">
+    <value>Loops</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="CustomIfElseActivity_Plural" xml:space="preserve">
+    <value>Conditionals</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="ActionActivity_Plural" xml:space="preserve">
+    <value>Actions</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="InterviewerInstruction_Plural" xml:space="preserve">
+    <value>Interviewer Instructions</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="InterviewerInstructionScheme_Plural" xml:space="preserve">
+    <value>Interviewer Instruction Sets</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="Universe_Plural" xml:space="preserve">
+    <value>Universes</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="UniverseScheme_Plural" xml:space="preserve">
+    <value>Universe Sets</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="Concept_Plural" xml:space="preserve">
+    <value>Concepts</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="ConceptScheme_Plural" xml:space="preserve">
+    <value>Concept Sets</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="Organization_Plural" xml:space="preserve">
+    <value>Organizations</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="OrganizationScheme_Plural" xml:space="preserve">
+    <value>Organization Sets</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="ConceptualComponent_Plural" xml:space="preserve">
+    <value>Conceptual Components</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="ResourcePackage_Plural" xml:space="preserve">
+    <value>Metadata Packages</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="StudyUnit_Plural" xml:space="preserve">
+    <value>Studies</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="CategoryGroup_Singular" xml:space="preserve">
+    <value>Category Group</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="CategoryGroup_Plural" xml:space="preserve">
+    <value>Category Groups</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="CodeListGroup_Singular" xml:space="preserve">
+    <value>Code List Group</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="CodeListGroup_Plural" xml:space="preserve">
+    <value>Code List Groups</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="CodeListScheme_Singular" xml:space="preserve">
+    <value>Code List Set</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="CodeListScheme_Plural" xml:space="preserve">
+    <value>Code List Sets</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="ConceptGroup_Singular" xml:space="preserve">
+    <value>Concept Group</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="ConceptGroup_Plural" xml:space="preserve">
+    <value>Concept Groups</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="ConceptualVariable_Singular" xml:space="preserve">
+    <value>Conceptual Variable</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="ConceptualVariableGroup_Singular" xml:space="preserve">
+    <value>Conceptual Variable Group</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="ConceptualVariableGroup_Plural" xml:space="preserve">
+    <value>Conceptual Variable Groups</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="ConceptualVariable_Plural" xml:space="preserve">
+    <value>Conceptual Variables</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="ConceptualVariableScheme_Singular" xml:space="preserve">
+    <value>Conceptual Variable Set</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="ConceptualVariableScheme_Plural" xml:space="preserve">
+    <value>Conceptual Variable Sets</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="ControlConstructGroup_Singular" xml:space="preserve">
+    <value>Control Construct Group</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="ControlConstructGroup_Plural" xml:space="preserve">
+    <value>Control Construct Groups</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="InstructionGroup_Singular" xml:space="preserve">
+    <value>Instruction Group</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="InstructionGroup_Plural" xml:space="preserve">
+    <value>Instruction Groups</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="InstrumentGroup_Singular" xml:space="preserve">
+    <value>Instrument Group</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="InstrumentGroup_Plural" xml:space="preserve">
+    <value>Instrument Groups</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="InstrumentScheme_Singular" xml:space="preserve">
+    <value>Instrument Set</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="InstrumentScheme_Plural" xml:space="preserve">
+    <value>Instrument Sets</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="NCube_Singular" xml:space="preserve">
+    <value>NCube</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="NCubeGroup_Singular" xml:space="preserve">
+    <value>NCube Group</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="NCubeGroup_Plural" xml:space="preserve">
+    <value>NCube Groups</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="NCube_Plural" xml:space="preserve">
+    <value>NCubes</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="NCubeScheme_Singular" xml:space="preserve">
+    <value>NCube Set</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="NCubeScheme_Plural" xml:space="preserve">
+    <value>NCube Sets</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="OrganizationGroup_Singular" xml:space="preserve">
+    <value>Organization Group</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="OrganizationGroup_Plural" xml:space="preserve">
+    <value>Organization Groups</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="QualityStatementGroup_Singular" xml:space="preserve">
+    <value>Quality Statement Group</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="QualityStatementGroup_Plural" xml:space="preserve">
+    <value>Quality Statement Groups</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="QuestionBlock_Singular" xml:space="preserve">
+    <value>Question Block</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="QuestionBlock_Plural" xml:space="preserve">
+    <value>Question Blocks</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="QuestionGrid_Singular" xml:space="preserve">
+    <value>Question Grid</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="QuestionGrid_Plural" xml:space="preserve">
+    <value>Question Grids</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="QuestionGroup_Singular" xml:space="preserve">
+    <value>Question Group</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="QuestionGroup_Plural" xml:space="preserve">
+    <value>Question Groups</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="RepresentedVariable_Singular" xml:space="preserve">
+    <value>Represented Variable</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="RepresentedVariableGroup_Singular" xml:space="preserve">
+    <value>Represented Variable Group</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="RepresentedVariableGroup_Plural" xml:space="preserve">
+    <value>Represented Variable Groups</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="RepresentedVariable_Plural" xml:space="preserve">
+    <value>Represented Variables</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="RepresentedVariableScheme_Singular" xml:space="preserve">
+    <value>Represented Variable Set</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="RepresentedVariableScheme_Plural" xml:space="preserve">
+    <value>Represented Variable Sets</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="UniverseGroup_Singular" xml:space="preserve">
+    <value>Universe Group</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="UniverseGroup_Plural" xml:space="preserve">
+    <value>Universe Groups</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="GeneralInstruction_Singular" xml:space="preserve">
+    <value>General Instruction</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="GeneralInstruction_Plural" xml:space="preserve">
+    <value>General Instructions</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="GenerationInstruction_Singular" xml:space="preserve">
+    <value>Generation Instruction</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="GenerationInstruction_Plural" xml:space="preserve">
+    <value>Generation Instructions</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="ProcessingEvent_Singular" xml:space="preserve">
+    <value>Processing Event</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="ProcessingEventGroup_Singular" xml:space="preserve">
+    <value>Processing Event Group</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="ProcessingEventGroup_Plural" xml:space="preserve">
+    <value>Processing Event Groups</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="ProcessingEvent_Plural" xml:space="preserve">
+    <value>Processing Events</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="ProcessingEventScheme_Singular" xml:space="preserve">
+    <value>Processing Event Set</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="ProcessingEventScheme_Plural" xml:space="preserve">
+    <value>Processing Event Sets</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="ProcessingInstructionGroup_Singular" xml:space="preserve">
+    <value>Processing Instruction Group</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="ProcessingInstructionGroup_Plural" xml:space="preserve">
+    <value>Processing Instruction Groups</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="ProcessingInstructionScheme_Singular" xml:space="preserve">
+    <value>Processing Instruction Scheme</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="ProcessingInstructionScheme_Plural" xml:space="preserve">
+    <value>Processing Instruction Sets</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="Archive_Singular" xml:space="preserve">
+    <value>Archive</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="Archive_Plural" xml:space="preserve">
+    <value>Archives</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="VariableStatistic_Singular" xml:space="preserve">
+    <value>Variable Statistic</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="VariableStatistic_Plural" xml:space="preserve">
+    <value>Variable Statistics</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="DataCollectionMethodology_Singular" xml:space="preserve">
+    <value>DataCollection Methodology</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="DataCollectionMethodology_Plural" xml:space="preserve">
+    <value>Data Collection Methodologies</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="ManagedMissingValuesRepresentation_Singular" xml:space="preserve">
+    <value>Reusable Missing Value</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="ManagedMissingValuesRepresentation_Plural" xml:space="preserve">
+    <value>Reusable Missing Values</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="ManagedRepresentationGroup_Singular" xml:space="preserve">
+    <value>Managed Representation Group</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="ManagedRepresentationGroup_Plural" xml:space="preserve">
+    <value>Managed Representation Groups</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="ManagedRepresentationScheme_Singular" xml:space="preserve">
+    <value>Managed Representation Set</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="ManagedRepresentationScheme_Plural" xml:space="preserve">
+    <value>Managed Representation Sets</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="QuestionActivity_Plural" xml:space="preserve">
+    <value>Question Constructs</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="ControlConstructScheme_Singular" xml:space="preserve">
+    <value>Control Construct Set</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="ControlConstructScheme_Plural" xml:space="preserve">
+    <value>Control Construct Sets</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="Group_Plural" xml:space="preserve">
+    <value>Series</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="LogicalRecord_Singular" xml:space="preserve">
+    <value>Logical Record</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="Loop_Plural" xml:space="preserve">
+    <value>Loops</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="SubGroup_Plural" xml:space="preserve">
+    <value>SubSeries</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="SubGroup_Singular" xml:space="preserve">
+    <value>SubSeries</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="ManagedDateTimeRepresentation_Plural" xml:space="preserve">
+    <value>Managed DateTime Representations</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="ManagedDateTimeRepresentation_Singular" xml:space="preserve">
+    <value>Managed DateTime Representation</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="ManagedNumericRepresentation_Plural" xml:space="preserve">
+    <value>Managed Numeric Representations</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="ManagedNumericRepresentation_Singular" xml:space="preserve">
+    <value>Managed Numeric Representation</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="ManagedScaleRepresentation_Plural" xml:space="preserve">
+    <value>Managed Scale Representations</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="ManagedScaleRepresentation_Singular" xml:space="preserve">
+    <value>Managed Scale Representation</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="ManagedTextRepresentation_Plural" xml:space="preserve">
+    <value>Managed Text Representations</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="ManagedTextRepresentation_Singular" xml:space="preserve">
+    <value>Managed Text Representation</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="ClassificationFamily_Plural" xml:space="preserve">
+    <value>Classification Families</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="ClassificationFamily_Singular" xml:space="preserve">
+    <value>Classification Family</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="ClassificationIndex_Plural" xml:space="preserve">
+    <value>Classification Indexes</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="ClassificationIndex_Singular" xml:space="preserve">
+    <value>Classification Index</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="ClassificationItem_Plural" xml:space="preserve">
+    <value>Classification Items</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="ClassificationItem_Singular" xml:space="preserve">
+    <value>Classification Item</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="ClassificationLevel_Plural" xml:space="preserve">
+    <value>Classification Levels</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="ClassificationLevel_Singular" xml:space="preserve">
+    <value>Classification Level</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="ClassificationSeries_Plural" xml:space="preserve">
+    <value>Classification Series</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="ClassificationSeries_Singular" xml:space="preserve">
+    <value>Classification Series</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="OtherMaterial_Plural" xml:space="preserve">
+    <value>Other Materials</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="OtherMaterial_Singular" xml:space="preserve">
+    <value>Other Material</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="StatisticalClassification_Plural" xml:space="preserve">
+    <value>Statistical Classifications</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="StatisticalClassification_Singular" xml:space="preserve">
+    <value>Statistical Classification</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="UnitTypeGroup_Plural" xml:space="preserve">
+    <value>Unit Type Groups</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="UnitTypeGroup_Singular" xml:space="preserve">
+    <value>Unit Type Group</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="UnitTypeScheme_Plural" xml:space="preserve">
+    <value>Unit Type Sets</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="UnitTypeScheme_Singular" xml:space="preserve">
+    <value>Unit Type Set</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="UnitType_Plural" xml:space="preserve">
+    <value>Unit Types</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="UnitType_Singular" xml:space="preserve">
+    <value>Unit Type</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="ClassificationCorrespondenceTable_Plural" xml:space="preserve">
+    <value>Classification Correspondence Tables</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="ClassificationCorrespondenceTable_Singular" xml:space="preserve">
+    <value>Classification Correspondence Table</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="OtherMaterialGroup_Plural" xml:space="preserve">
+    <value>Other Material Groups</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="OtherMaterialGroup_Singular" xml:space="preserve">
+    <value>Other Material Group</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="OtherMaterialScheme_Plural" xml:space="preserve">
+    <value>Other Material Schemes</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="OtherMaterialScheme_Singular" xml:space="preserve">
+    <value>Other Material Scheme</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="Individual_Plural" xml:space="preserve">
+    <value>Individuals</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="Individual_Singular" xml:space="preserve">
+    <value>Individual</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="Measurement_Plural" xml:space="preserve">
+    <value>Measurements</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="Measurement_Single" xml:space="preserve">
+    <value>Measurement</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="MeasurementActivity_Plural" xml:space="preserve">
+    <value>Measurement Constructs</value>
+    <comment>DDI Content</comment>
+  </data>
+  <data name="MeasurementActivity_Singular" xml:space="preserve">
+    <value>Measurement Construct</value>
+    <comment>DDI Content</comment>
+  </data>
+</root>

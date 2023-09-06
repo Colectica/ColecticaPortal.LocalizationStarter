@@ -1,4 +1,4 @@
-/bin
-/obj
-/.vs/ColecticaPortal.LocalizationStarter/v14/*.suo
+bin/
+obj/
+.vs/
 *.suo
